@@ -111,7 +111,7 @@ const Contact = () => {
         <div className="w-full md:w-2/4">
           <img
             className="hidden md:flex gap-5 font-medium text-lg items-center"
-            src="img/suporte.png"
+            src="Sistema-ondonto/img/suporte.png"
             alt="img"
           />
         </div>

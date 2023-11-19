@@ -8,7 +8,7 @@ const Sobre = () => {
         <div className=" mt-1 mb-20 flex flex-col-reverse md:flex-row items-center gap-5 ">
 
             <div className=" w-full md:w-2/4">
-                <img src='img/BannerSobre.png' alt="img" />
+                <img src='Sistema-ondonto/img/BannerSobre.png' alt="img" />
             </div>
             <div className="w-full md:w-3/4 text-center space-y-11 m-10 p-10">
                 <h3 className="text-4xl font-semibold " >

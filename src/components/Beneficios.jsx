@@ -11,7 +11,7 @@ const Beneficios = () => {
               id="beneficios"
               className="text-5xl font-semibold leading-tight"
             >
-              Porque podemos e<span>te ajudar?</span>
+              Como podemos <span>te ajudar?</span>
             </h3>
           </div>
 

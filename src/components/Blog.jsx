@@ -12,7 +12,7 @@ const Blog = () => {
 
           <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
             <div class="flex items-center gap-4">
-            <img src="\img\Banner1.png" alt="img" />
+            <img src="/Sistema-ondonto/img/Banner1.png" alt="img" />
             </div>
             <div>
 
@@ -36,7 +36,7 @@ const Blog = () => {
           
           <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
             <div class="flex items-center w-100">
-              <img src="\img\Banner1.png" alt="img" />
+              <img src="/Sistema-ondonto/img/Banner1.png" alt="img" />
             </div>
             <div>
 
@@ -60,7 +60,7 @@ const Blog = () => {
           
           <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
             <div class="flex items-center gap-4">
-            <img src="\img\Banner1.png" alt="img" />
+            <img src="/Sistema-ondonto/img/Banner1.png" alt="img" />
             </div>
             <div>
 

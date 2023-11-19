@@ -17,7 +17,7 @@ const Navbar = () => {
             to="#"
             className="flex items-center font-semibold  text-3xl p-1 cursor-pointer"
           >
-            <img src="img/logo.png" alt="Logo" className="w-9 h-8 mr-2 " />
+            <img src="Sistema-ondonto/img/logo.png" alt="Logo" className="w-9 h-8 mr-2 " />
             Confia
           </Link>
         </div>

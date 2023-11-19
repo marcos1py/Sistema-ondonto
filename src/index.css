@@ -30,7 +30,7 @@ body{
   background-color: #043873;
 }
 .linhaFundo {
-  background: url('img/Element.svg') center center no-repeat;
+  background: url('/Sistema-ondonto/img/Element.svg') center center no-repeat;
 }
 .linhaFundo::before {
 
@@ -99,7 +99,7 @@ body{
  left: 0;
  bottom: 0;
  z-index: -1;
- background-image: url(img/element.png);
+ background-image: url(/Sistema-ondonto/img/element.png);
  background-size: cover;
  background-repeat: no-repeat;
 }
@@ -285,7 +285,7 @@ your work area
   margin-bottom: 10px;
 }
 .your-work-area .theme-text h3 span::after {
-  background-image: url(img/element.png);
+  background-image: url(/Sistema-ondonto/img/element.png);
   background-size: contain;
   background-position: bottom;
   left: 14px;
