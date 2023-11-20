@@ -114,6 +114,16 @@ const Contact = () => {
             src="../Sistema-ondonto/img/suporte.png"
             alt="img"
           />
+          <img
+            className="hidden md:flex gap-5 font-medium text-lg items-center"
+            src="./Sistema-ondonto/img/suporte.png"
+            alt="img"
+          />
+          <img
+            className="hidden md:flex gap-5 font-medium text-lg items-center"
+            src="../img/suporte.png"
+            alt="img"
+          />
         </div>
       </div>
     </div>
