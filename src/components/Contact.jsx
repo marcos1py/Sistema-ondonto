@@ -53,6 +53,7 @@ const Contact = () => {
           <div className="flex flex-col">
             <label htmlFor="userName">Seu nome</label>
             <input
+              required
               className="py-3 px-2 rounded-lg hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all border border-gray-400"
               type="text"
               name="userName"
@@ -65,6 +66,7 @@ const Contact = () => {
           <div className="flex flex-col">
             <label htmlFor="userEmail">Seu E-mail</label>
             <input
+              required
               className="py-3 px-2 rounded-lg hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all border border-gray-400"
               type="email"
               name="userEmail"
@@ -77,6 +79,7 @@ const Contact = () => {
           <div className="flex flex-col">
             <label htmlFor="userNumber">Seu Numero</label>
             <input
+              required
               className="py-3 px-2 rounded-lg hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all border border-gray-400"
               type="text"
               name="userNumber"
@@ -89,6 +92,7 @@ const Contact = () => {
           <div className="flex flex-col">
             <label htmlFor="userNumber">Sua mensagem</label>
             <input
+            required
               className="py-3 px-2 rounded-lg hover:shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] transition-all border border-gray-400"
               type="text"
               name="usermsg"
@@ -112,16 +116,6 @@ const Contact = () => {
           <img
             className="hidden md:flex gap-5 font-medium text-lg items-center"
             src="../Sistema-ondonto/img/suporte.png"
-            alt="img"
-          />
-          <img
-            className="hidden md:flex gap-5 font-medium text-lg items-center"
-            src="./Sistema-ondonto/img/suporte.png"
-            alt="img"
-          />
-          <img
-            className="hidden md:flex gap-5 font-medium text-lg items-center"
-            src="../img/suporte.png"
             alt="img"
           />
         </div>
