@@ -25,7 +25,7 @@ const Home = () => {
                     </div>
 
                     <div className=" w-full md:w-2/4">
-                    <img src="../Sistema-ondonto/img/Banner1.png " alt="mulher" />
+                    <img src="./img/Banner1.png " alt="mulher" />
 
                     </div>
                 </div>
