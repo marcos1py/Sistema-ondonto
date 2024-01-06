@@ -77,8 +77,8 @@ const Footer = () => {
         </nav>
 
         <p className=" mt-2 text-base leading-6 text-center text-gray-400">
-          Email: Marcosantoniop47@gmail.com <br />
-          Tel: +55 62 99501-7529
+          Email: Contato@confia.site <br />
+          Tel: <a href="https://wa.me/5562995487004?text=Oii%2C+queria+saber+mais+sobre+a+empresa.">+55 62 9 9548-7004</a>
         </p>
         <p className="mt-1 text-base leading-6 text-center text-gray-400">
           © 2023 Confia, Inc. All rights reserved.
