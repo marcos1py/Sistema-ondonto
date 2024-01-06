@@ -16,11 +16,12 @@ const Sobre = () => {
                 </h3>
 
                 <p className=" ">
-                Potencialize a administração da sua clínica odontológica
-                 com o Confia, o SaaS que oferece uma solução integrada 
-                 para agendamento, prontuário eletrônico, gestão financeira e 
-                 muito mais. Transforme a experiência do seu consultório com 
-                 eficiência e praticidade!
+                A Confia é a sua parceira ideal na criação de landing pages
+                 de alto impacto. Potencialize a presença online da sua 
+                 empresa com designs personalizados, otimizados para conversão 
+                 e totalmente responsivos. Transforme visitantes em clientes com 
+                 eficiência e praticidade. Entre em contato conosco para impulsionar 
+                 o sucesso da sua presença na web.
 
                 </p>
                 <Link to="Contato" spy={true} smooth={true} duration={500}>

@@ -18,73 +18,68 @@ const Beneficios = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 m-4">
             {/* Benefício 1 */}
             <div className="singel-pricing p-8">
-              <h4>Gestão Eficiente de Pacientes</h4>
+              <h4>Design Personalizado e Atraente</h4>
               <p>
-                Armazenamento seguro de informações do paciente, histórico
-                médico e odontológico.
+                Utilizando HTML, CSS e JavaScript, criamos landing pages
+                personalizadas e visualmente atraentes, alinhadas com a identidade da sua marca.
               </p>
               <p>
-                Acesso rápido a dados relevantes durante consultas e
-                procedimentos.
+                Transmitimos uma mensagem visual forte aos visitantes.
               </p>
             </div>
 
             {/* Benefício 2 */}
             <div className="singel-pricing p-8">
-              <h4>Agendamento e Controle de Consultas</h4>
+              <h4>Experiência do Usuário Aprimorada</h4>
               <p>
-                Facilita o agendamento de consultas, evitando conflitos de
-                horários.
+                O uso de JavaScript proporciona uma experiência interativa e dinâmica.
               </p>
               <p>
-                Lembretes automáticos para pacientes, reduzindo o índice de faltas.
+                Elementos como animações, transições suaves e validações de formulários melhoram a interação do usuário.
               </p>
             </div>
 
             {/* Benefício 3 */}
             <div className="singel-pricing p-8">
-              <h4>Prontuário Eletrônico</h4>
+              <h4>Otimização para Dispositivos Móveis</h4>
               <p>
-                Substituição dos registros em papel por um sistema digital,
-                promovendo organização e redução de erros.
+                Desenvolvemos landing pages responsivas que se adaptam a diferentes tamanhos de tela.
               </p>
               <p>
-                Facilita o compartilhamento de informações entre profissionais
-                de saúde.
+                Garantimos uma experiência consistente e eficaz, independentemente do dispositivo.
               </p>
             </div>
 
             {/* Benefício 4 */}
             <div className="singel-pricing p-8">
-              <h4>Controle Financeiro</h4>
+              <h4>Velocidade de Carregamento Aprimorada</h4>
               <p>
-                Gerenciamento de pagamentos, faturamento e controle de despesas.
+                Otimizamos o código e os recursos da página para melhorar a velocidade de carregamento.
               </p>
               <p>
-                Geração de relatórios para análise financeira.
+                Crucial para reter a atenção dos visitantes e melhorar o posicionamento nos motores de busca.
               </p>
             </div>
 
             {/* Benefício 5 */}
             <div className="singel-pricing p-8">
-              <h4>Atualizações e Inovações</h4>
+              <h4>Funcionalidades Interativas</h4>
               <p>
-                Recebimento de atualizações regulares para se adaptar a mudanças
-                nas práticas odontológicas.
+                Utilizamos JavaScript para implementar funcionalidades interativas, como sliders e galerias de imagens dinâmicas.
               </p>
               <p>
-                Integração com novas tecnologias e inovações na área da saúde.
+                Elementos que envolvem os visitantes, aumentando o engajamento.
               </p>
             </div>
 
             {/* Benefício 6 */}
             <div className="singel-pricing p-8">
-              <h4>Segurança e Backup</h4>
+              <h4>Melhoria na Conversão</h4>
               <p>
-                Garantia de segurança dos dados do paciente.
+                Projetamos landing pages eficazes com chamadas para ação claras.
               </p>
               <p>
-                Rotinas automáticas de backup para evitar perda de informações.
+                A capacidade de personalizar elementos visuais e funcionalidades é fundamental para aumentar as taxas de conversão.
               </p>
             </div>
           </div>

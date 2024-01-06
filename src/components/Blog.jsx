@@ -2,86 +2,73 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <section class="">
-      <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-        <h2 class="text-center text-4xl font-bold tracking-tight  sm:text-5xl">
-        Blog
+    <section className="">
+      <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+        <h2 className="text-center text-4xl font-bold tracking-tight sm:text-5xl">
+          Blog
         </h2>
 
-        <div class="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
+        <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
 
-          <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
-            <div class="flex items-center gap-4">
-            <img src="./img/Banner1.png" alt="img" />
-    
+          {/* Blog Post 1 - Criação de Sites */}
+          <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <div className="flex items-center gap-4">
+              <img src="./img/blog1.png" alt="img" className="w-full h-40 object-cover" />
             </div>
             <div>
-
-              <p class="mt-0.5 text-lg font-medium text-gray-900">
-               Desvendando o Software Ondonto
+              <p className="mt-0.5 text-lg font-medium text-gray-900">
+                A Importância da Criação de Sites Profissionais
               </p>
             </div>
-            <p class="mt-4 text-gray-700">
-            Explore os detalhes do software Ondonto e descubra
-             como ele revoluciona a prática odontológica no Brasil
-             . De gestão eficiente de pacientes a inovações tecnológicas,
-              mergulhe nas características que tornam este software uma escolha 
-              indispensável para profissionais comprometidos.
+            <p className="mt-4 text-gray-700">
+              Explore por que ter um site profissional é crucial nos dias de hoje. Descubra como a criação de um site impacta positivamente a presença online, atrai clientes e fortalece a identidade digital de qualquer negócio.
             </p>
-            <div class="theme-text text-center">
-            <button className="text-center bg-blue-500 hover:bg-blue-700 m-3 text-white font-bold py-2 px-4 rounded">
+            <div className="theme-text text-center">
+              <button className="text-center bg-blue-500 hover:bg-blue-700 m-3 text-white font-bold py-2 px-4 rounded">
                 Ler mais sobre
-            </button>
-          </div>
+              </button>
+            </div>
           </blockquote>
-          
-          <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
-            <div class="flex items-center w-100">
-              <img src="../img/Banner1.png" alt="img" />
+
+          {/* Blog Post 2 - Escolhendo Profissionais Experientes */}
+          <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <div className="flex items-center gap-4">
+              <img src="./img/blog2.png" alt="img" className="w-full h-40 object-cover" />
             </div>
             <div>
-
-              <p class="mt-0.5 text-lg font-medium text-gray-900">
-              Como a Ondonto Transformou Consultórios Odontológicos
+              <p className="mt-0.5 text-lg font-medium text-gray-900">
+                Por Que Escolher um Profissional para a Criação do Seu Site?
               </p>
             </div>
-            <p class="mt-4 text-gray-700">
-            Conheça histórias inspiradoras de profissionais da 
-            odontologia que adotaram a Ondonto em seus consultórios.
-            Aumento na eficiência, melhorias na experiência do paciente e
-             conquistas notáveis – saiba como essa solução está transformando
-              vidas profissionais.
+            <p className="mt-4 text-gray-700">
+              Conheça os benefícios de contar com profissionais experientes na criação do seu site. Desde o design até a otimização para motores de busca (SEO), descubra como especialistas podem fazer a diferença no sucesso online do seu negócio.
             </p>
-            <div class="theme-text text-center">
-            <button className="text-center bg-blue-500 hover:bg-blue-700 m-3 text-white font-bold py-2 px-4 rounded">
+            <div className="theme-text text-center">
+              <button className="text-center bg-blue-500 hover:bg-blue-700 m-3 text-white font-bold py-2 px-4 rounded">
                 Ler mais sobre
-            </button>
-          </div>
+              </button>
+            </div>
           </blockquote>
-          
-          <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
-            <div class="flex items-center gap-4">
-            <img src="./img/Banner1.png" alt="img" />
+
+          {/* Blog Post 3 - Aumentando a Visibilidade com um Site */}
+          <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+            <div className="flex items-center gap-4">
+              <img src="./img/blog3.png" alt="img" className="w-full h-40 object-cover" />
             </div>
             <div>
-
-              <p class="mt-0.5 text-lg font-medium text-gray-900">
-               Tendências Odontológicas no Brasil:
+              <p className="mt-0.5 text-lg font-medium text-gray-900">
+                Estratégias para Aumentar a Visibilidade Através do Seu Site
               </p>
             </div>
-            <p class="mt-4 text-gray-700">
-            Descubra as últimas tendências na odontologia brasileira 
-            e como a Ondonto tem liderado a inovação. De materiais avançados 
-            a abordagens de tratamento pioneiras, explore o que está moldando 
-            o futuro da saúde bucal no Brasil.
+            <p className="mt-4 text-gray-700">
+              Descubra como maximizar a visibilidade online do seu negócio por meio de estratégias eficazes. Desde a otimização de conteúdo até a promoção nas redes sociais, explore maneiras de atrair mais visitantes e potenciais clientes.
             </p>
-            <div class="theme-text text-center">
-            <button className="text-center bg-blue-500 hover:bg-blue-700 m-3 text-white font-bold py-2 px-4 rounded">
+            <div className="theme-text text-center">
+              <button className="text-center bg-blue-500 hover:bg-blue-700 m-3 text-white font-bold py-2 px-4 rounded">
                 Ler mais sobre
-            </button>
-          </div>
+              </button>
+            </div>
           </blockquote>
-
 
         </div>
       </div>
