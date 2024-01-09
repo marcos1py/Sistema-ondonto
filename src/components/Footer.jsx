@@ -78,7 +78,7 @@ const Footer = () => {
 
         <p className=" mt-2 text-base leading-6 text-center text-gray-400">
           Email: Contato@confia.site <br />
-          Tel: <a href="https://wa.me/5562995487004?text=Oii%2C+queria+saber+mais+sobre+a+empresa.">+55 62 9 9548-7004</a>
+          Tel: <a href="https://wa.me/5562993398590?text=Oii%2C+queria+saber+mais+sobre+a+empresa.">+55 62 9 9339-8590</a>
         </p>
         <p className="mt-1 text-base leading-6 text-center text-gray-400">
           © 2023 Confia, Inc. All rights reserved.
