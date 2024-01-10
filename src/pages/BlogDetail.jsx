@@ -5,6 +5,7 @@ import Header from "../components/blog/Header";
 import Footer from "../components/blog/Footer";
 import Compatilhar from "../components/blog/Compatilhar";
 import PostNavigation from "../components/blog/PostNavigation";
+import { Helmet } from "react-helmet";
 
 function BlogDetail() {
   const { id } = useParams();
@@ -64,6 +65,15 @@ function BlogDetail() {
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{post.title}</title>
+        {post.conteudo && (
+          <meta name="description" content={post.conteudo.substring(0, 18)} />
+        )}
+        <meta name="keywords" content={post.tag} />
+      </Helmet>
+
       <main className="backgrond">
         <Header />
         <div className="min-h-[30vh] flex flex-col md:flex-row md:justify-between items-center md:mx-32 mx-5 mt-10">
@@ -86,8 +96,8 @@ function BlogDetail() {
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
       >
-        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-          <g transform="translate(-1.000000, -1.0001)" fill-rule="nonzero">
+        <g stroke="none" stroke-width="1" fill="none" >
+          <g transform="translate(-1.000000, -1.0001)" >
             <g class="wave" fill="#043873">
               <path d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"></path>
             </g>
@@ -117,9 +127,13 @@ function BlogDetail() {
           <>
             <Compatilhar />
             <PostNavigation
-              prevLink={postAnterior.id ? `/blog/blog-detail/${postAnterior.id}` : null}
+              prevLink={
+                postAnterior.id ? `/blog/blog-detail/${postAnterior.id}` : null
+              }
               prevTitle={postAnterior.title || ""}
-              nextLink={postProximo.id ? `/blog/blog-detail/${postProximo.id}` : null}
+              nextLink={
+                postProximo.id ? `/blog/blog-detail/${postProximo.id}` : null
+              }
               nextTitle={postProximo.title || ""}
             />
             <div className="backgrond mt-12" id="footer">
