@@ -1,30 +1,40 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-scroll";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
+  const [isBlogPage, setIsBlogPage] = useState(false);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    // Verifica se a URL contém "/blog"
+    setIsBlogPage(window.location.pathname.includes("/blog"));
+  }, []); // Executa apenas uma vez no carregamento inicial
 
   const handleChange = () => {
     setMenu(!menu);
   };
 
   return (
-    <div className="backgrond">
-      <div className="flex p-5 px-5 items-center">
+    <div className="backgrond ">
+      <div className=" flex p-5 px-5 items-center">
         <div className=" mr-10 ">
           <Link
-            to="#"
+            onClick={() => navigate("/")}
+
             className="flex items-center font-semibold  text-3xl p-1 cursor-pointer"
           >
             <img src="./img/logo.png" alt="Logo" className="w-9 h-8 mr-2 " />
-            Confia
+           Confia
           </Link>
         </div>
         <div className="flex-grow"></div>
         <div className="hidden md:flex gap-5 font-medium text-lg items-center">
           <Link
             className="hover:text-[#A7CEFC] transition-all cursor-pointer"
+            onClick={() => navigate("/")}
             to="sobre"
             spy={true}
             smooth={true}
@@ -50,15 +60,14 @@ const Navbar = () => {
           >
             Depoimentos
           </Link>
-          <Link
-            className="hover:text-[#A7CEFC] transition-all cursor-pointer "
-            to="blog"
-            spy={true}
-            smooth={true}
-            duration={500}
+          <div
+            className={`${
+              isBlogPage ? "text-[#A7CEFC]" : "hover:text-[#A7CEFC]"
+            } transition-all cursor-pointer`}
+            onClick={() => navigate("/blog")}
           >
             Blog
-          </Link>
+          </div>
           <Link
             className="text-base leading-6 text-gray-100 hover:text-sky-300 cursor-pointer"
             to="Contato"
@@ -79,18 +88,20 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="md:flex gap-2">
-        <Link  to="/login" spy={true} smooth={true} duration={500}>
+          <Link to="/login" spy={true} smooth={true} duration={500}>
             <button
               href="#"
-              className=" bg-[#FFE492] hover:bg-yellow-400  hover:text-white m-3 text-black font-bold py-2 px-4 rounded">
+              className=" bg-[#FFE492] hover:bg-yellow-400  hover:text-white m-3 text-black font-bold py-2 px-4 rounded"
+            >
               Login
             </button>
           </Link>
 
-          <Link  to="Contato" spy={true} smooth={true} duration={500}>
+          <Link to="Contato" spy={true} smooth={true} duration={500}>
             <button
               href="#Contato"
-              className="bg-blue-500 hover:bg-blue-700 m-3 text-white font-bold py-2 px-4 rounded">
+              className="bg-blue-500 hover:bg-blue-700 m-3 text-white font-bold py-2 px-4 rounded"
+            >
               Conhecer
             </button>
           </Link>
@@ -133,15 +144,12 @@ const Navbar = () => {
         >
           Depoimentos
         </Link>
-        <Link
-          to="reviews"
-          spy={true}
-          smooth={true}
-          duration={500}
-          className="hover:text-[#A7CEFC] transition-all cursor-pointer"
+        <div
+          className="hover:text-[#A7CEFC] transition-all cursor-pointer "
+          onClick={() => navigate("/blog")}
         >
           Blog
-        </Link>
+        </div>
         <Link
           className="text-base leading-6 text-gray-100 hover:text-sky-300 cursor-pointer"
           to="Contato"
