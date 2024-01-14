@@ -26,7 +26,7 @@ const Navbar = () => {
 
             className="flex items-center font-semibold  text-3xl p-1 cursor-pointer"
           >
-            <img src="./img/logo.png" alt="Logo" className="w-9 h-8 mr-2 " />
+<img src="./img/logoteste2.png" alt="Logo" className="w-20 mr-2" />
            Confia
           </Link>
         </div>
@@ -53,6 +53,8 @@ const Navbar = () => {
           </Link>
           <Link
             className="hover:text-[#A7CEFC] transition-all cursor-pointer"
+            onClick={() => navigate("/")}
+
             to="Depoimentos"
             spy={true}
             smooth={true}
@@ -60,6 +62,14 @@ const Navbar = () => {
           >
             Depoimentos
           </Link>
+          <div
+            className={`${
+              isBlogPage ? "text-[#A7CEFC]" : "hover:text-[#A7CEFC]"
+            } transition-all cursor-pointer`}
+            onClick={() => navigate("/portifolio")}
+          >
+            Projetos
+          </div>
           <div
             className={`${
               isBlogPage ? "text-[#A7CEFC]" : "hover:text-[#A7CEFC]"
@@ -87,25 +97,7 @@ const Navbar = () => {
             FAQ
           </Link>
         </div>
-        <div className="md:flex gap-2">
-          <Link to="/login" spy={true} smooth={true} duration={500}>
-            <button
-              href="#"
-              className=" bg-[#FFE492] hover:bg-yellow-400  hover:text-white m-3 text-black font-bold py-2 px-4 rounded"
-            >
-              Login
-            </button>
-          </Link>
 
-          <Link to="Contato" spy={true} smooth={true} duration={500}>
-            <button
-              href="#Contato"
-              className="bg-blue-500 hover:bg-blue-700 m-3 text-white font-bold py-2 px-4 rounded"
-            >
-              Conhecer
-            </button>
-          </Link>
-        </div>
         <div className="flex md:hidden" onClick={handleChange}>
           <div className="p-2">
             <AiOutlineMenu size={22} />
@@ -172,5 +164,5 @@ const Navbar = () => {
     </div>
   );
 };
-
+                           
 export default Navbar;
