@@ -17,7 +17,7 @@ const Home = () => {
                         </p>
 
                         <Link to="Contato" spy={true} smooth={true} duration={500}>
-                            <button  href="#Contato" className="bg-blue-500 hover:bg-blue-700 m-3 text-white font-bold py-2 px-4 rounded">
+                            <button  href="#Contato" className="bg-blue-600 hover:bg-blue-700 m-3 mt-9 text-white font-bold py-2 px-4 rounded">
                                 Quero Conhecer
                             </button>
                         </Link>

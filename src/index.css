@@ -21,13 +21,12 @@ body{
 }
 
 .btn {
-  color: #043873;
   border-radius: 7px;
   background: #FFE492;
 }
 .backgrond {
   color: #fff;
-  background-color: #043873;
+  background-color: #0B1D41;
 }
 .linhaFundo {
   background: url('./img/Element.svg') center center no-repeat;
@@ -51,7 +50,6 @@ body{
   transition: 0.3s;  
 }
 .theme-button:hover{
-  background:#043873;
   color:#ffffff;
 }
 .theme-button-two{
@@ -59,7 +57,6 @@ body{
      background: #FFE492;
       border-radius: 8px;
       padding: 16px 24px !important;
-      color:#043873 !important;        
     }
     .theme-button-three{
       display:inline-block;
@@ -67,7 +64,6 @@ body{
       border: 1px solid #FFE492;
        border-radius: 8px;
        padding: 16px 24px !important;
-       color:#043873 !important; 
        text-decoration: none;       
      }
     .header-area .theme-button{
@@ -81,12 +77,9 @@ body{
 }
 .theme-text h3{
   font-size: 58px;
-  color:#212529 ;
   margin-bottom: 15px;
 }
-.theme-text p{
-  color:#212529 ;
-}
+
 .theme-text h3 span {
   position: relative;
   z-index: 1;
@@ -108,7 +101,6 @@ body{
 header-area css
 */
 .header-area{
-background-color:#043873 ;
 padding:16px 0;
 }
 
@@ -167,7 +159,6 @@ extension area css
 */
 .extension-area{
   padding: 140px 0;
-  background-color: #043873;
 } 
 
 .extension-area .theme-text h3 span::after {
@@ -253,7 +244,6 @@ align-items: center;
 }
 .special-pricing{
   padding: 60px 44px;
-  background-color: #043873;
   color: #ffffff;
 }
 .special-pricing h2{
@@ -274,7 +264,6 @@ align-items: center;
   margin: 0 5px; 
 }
 .pricing-area .owl-dots button.active{
-  background-color:#043873 !important;
 }
 
 /*
@@ -386,7 +375,6 @@ transition: 0.3s;
 }
 .author-text h3{
   font-size: 18px;
-  color: #043873;
 }
 .author-text p{
   margin-bottom: 0;
@@ -403,7 +391,6 @@ transition: 0.3s;
   margin: 0 5px;
 }
 .testimonial-area .owl-dots button.active{
-  background-color:#043873 !important;
 }
 
 
@@ -412,7 +399,6 @@ trial area css
 */
 .trial-area{
   padding: 140px 0;
-  background-color: #043873;
 }
 .trial-text h3{
   font-size: 68px;
@@ -435,7 +421,6 @@ trial area css
 footer area css
 */
 .footer-area{
-  background-color: #043873;
   border: 1px solid #2E4E73;
   padding-top: 140px;
 }
@@ -696,4 +681,24 @@ trial area css
    .footer-social a {
      margin: 0 16px;
   }
+}
+/* Estilo básico da barra de rolagem */
+::-webkit-scrollbar {
+  width: 12px; /* largura da barra de rolagem */
+}
+
+/* Rastreamento da barra de rolagem */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* cor de fundo da barra de rolagem */
+}
+
+/* Alça da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* cor da alça da barra de rolagem */
+  border-radius: 6px; /* bordas arredondadas da alça */
+}
+
+/* Hover sobre a alça da barra de rolagem */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* cor ao passar o mouse sobre a alça */
 }

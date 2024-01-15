@@ -44,6 +44,8 @@ const Navbar = () => {
           </Link>
           <Link
             className="hover:text-[#A7CEFC] transition-all cursor-pointer"
+            onClick={() => navigate("/")}
+
             to="beneficios"
             spy={true}
             smooth={true}
@@ -81,6 +83,8 @@ const Navbar = () => {
           <Link
             className="text-base leading-6 text-gray-100 hover:text-sky-300 cursor-pointer"
             to="Contato"
+            onClick={() => navigate("/")}
+
             spy={true}
             smooth={true}
             duration={500}
@@ -90,6 +94,8 @@ const Navbar = () => {
           <Link
             className="text-base leading-6 text-gray-100 hover:text-sky-300 cursor-pointer mr-5"
             to="faq"
+            onClick={() => navigate("/")}
+
             spy={true}
             smooth={true}
             duration={500}
@@ -110,6 +116,8 @@ const Navbar = () => {
         } md:hidden flex flex-col absolute bg-blue-500 left-0 top-20 font-medium text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300 `}
       >
         <Link
+                    onClick={() => navigate("/")}
+
           to="home"
           spy={true}
           smooth={true}
@@ -119,7 +127,9 @@ const Navbar = () => {
           Quem Somos?
         </Link>
         <Link
-          to="about"
+                    onClick={() => navigate("/")}
+
+          to="beneficios"
           spy={true}
           smooth={true}
           duration={500}
@@ -128,7 +138,7 @@ const Navbar = () => {
           Benefícios
         </Link>
         <Link
-          to="courses"
+          to="depoimentos"
           spy={true}
           smooth={true}
           duration={500}
@@ -136,6 +146,14 @@ const Navbar = () => {
         >
           Depoimentos
         </Link>
+        <div
+            className={`${
+              isBlogPage ? "text-[#A7CEFC]" : "hover:text-[#A7CEFC]"
+            } transition-all cursor-pointer`}
+            onClick={() => navigate("/portifolio")}
+          >
+            Projetos
+          </div>
         <div
           className="hover:text-[#A7CEFC] transition-all cursor-pointer "
           onClick={() => navigate("/blog")}

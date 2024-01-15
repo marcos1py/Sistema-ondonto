@@ -12,7 +12,7 @@ const Sobre = () => {
             </div>
             <div className="w-full md:w-3/4 text-center space-y-11 m-10 p-10">
                 <h3 className="text-4xl font-semibold " >
-                    <span className="text-sky-400 mb-10" >Sobre</span>
+                    <span className="text-blue-500 mb-10" >Sobre</span>
                 </h3>
 
                 <p className=" ">

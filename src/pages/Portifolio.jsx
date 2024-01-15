@@ -60,24 +60,24 @@ const Portifolio = () => {
           </div>
           <div className="border border-gray-300 rounded-lg overflow-hidden shadow-lg">
             <img
-              src="./img/telaPc2.png"
+              src="./img/telaPcSite5.png"
               alt="Projeto 1"
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h3 className="text-lg font-bold mb-2">Nome do Projeto</h3>
-              <p className="text-gray-600">Descrição breve do projeto.</p>
+              <h3 className="text-lg font-bold mb-2">Sistema para Distribuidora</h3>
+              <p className="text-gray-600">Sistema de gerenciamento de estoque e grafico, com NF. (Web)</p>
             </div>
           </div>
           <div className="border border-gray-300 rounded-lg overflow-hidden shadow-lg">
             <img 
-              src="./img/telaPc2.png"
+              src="./img/telaPcSite6.png"
               alt="Projeto 1"
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h3 className="text-lg font-bold mb-2">Nome do Projeto</h3>
-              <p className="text-gray-600">Descrição breve do projeto.</p>
+              <h3 className="text-lg font-bold mb-2">Landing page Barbearia</h3>
+              <p className="text-gray-600">Landing page para agendamento de cortes e mostrar a marca.(Web)</p>
             </div>
           </div>
 

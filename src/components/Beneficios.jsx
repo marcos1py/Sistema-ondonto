@@ -6,13 +6,10 @@ const Beneficios = () => {
     <div>
       <section className="your-work-area">
         <div className="">
-          <div className="theme-text text-center">
-            <h3
-              id="beneficios"
-              className="text-5xl font-semibold leading-tight"
-            >
-              Como podemos <span>te ajudar?</span>
-            </h3>
+          <div className="theme-text text-center mb-10">
+            <h3 className="text-4xl font-semibold text-blue-600  " >
+                    Como podemos te <span className="" >ajudar?</span>
+                </h3>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 m-4">
