@@ -6,7 +6,7 @@ import Footer from "../components/blog/Footer";
 import Compatilhar from "../components/blog/Compatilhar";
 import PostNavigation from "../components/blog/PostNavigation";
 import { Helmet } from "react-helmet";
-
+import Navbar from "../components/Navbar";
 function BlogDetail() {
   const { id } = useParams();
   const [post, setPost] = useState({});

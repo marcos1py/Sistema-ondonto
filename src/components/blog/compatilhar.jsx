@@ -28,13 +28,13 @@ const Compartilhar = () => {
     <div className="flex flex-col items-center mt-6 p-4 rounded-md">
       <h2 className="text-lg font-bold mb-2">Compartilhe:</h2>
       <div className="flex space-x-4">
-        <button className="bg-blue-500 text-white py-2 px-4 rounded" onClick={shareOnFacebook}>
+        <button className="bg-blue-500 text-white py-2 px-4 rounded" >
           <i className="fa fa-facebook" aria-hidden="true"></i> Facebook
         </button>
         <button className="bg-blue-300 text-white py-2 px-4 rounded" onClick={shareOnTwitter}>
           <i className="fa fa-twitter" aria-hidden="true"></i> Twitter
         </button>
-        <button className="bg-blue-700 text-white py-2 px-4 rounded" onClick={shareOnLinkedIn}>
+        <button className="bg-blue-700 text-white py-2 px-4 rounded" >
           <i className="fa fa-linkedin" aria-hidden="true"></i> LinkedIn
         </button>
         <button className="bg-green-500 text-white py-2 px-4 rounded" onClick={shareOnWhatsApp}>

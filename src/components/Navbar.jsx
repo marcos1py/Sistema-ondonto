@@ -31,7 +31,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="flex-grow"></div>
-        <div className="hidden md:flex gap-5 font-medium text-lg items-center">
+        <div className="hidden md:flex gap-5 font-medium text-lg items-center mr-10">
           <Link
             className="hover:text-[#A7CEFC] transition-all cursor-pointer"
             onClick={() => navigate("/")}
@@ -40,30 +40,9 @@ const Navbar = () => {
             smooth={true}
             duration={500}
           >
-            Quem Somos?
+            Home
           </Link>
-          <Link
-            className="hover:text-[#A7CEFC] transition-all cursor-pointer"
-            onClick={() => navigate("/")}
 
-            to="beneficios"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            Benefícios
-          </Link>
-          <Link
-            className="hover:text-[#A7CEFC] transition-all cursor-pointer"
-            onClick={() => navigate("/")}
-
-            to="Depoimentos"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            Depoimentos
-          </Link>
           <div
             className={`${
               isBlogPage ? "text-[#A7CEFC]" : "hover:text-[#A7CEFC]"
@@ -80,28 +59,7 @@ const Navbar = () => {
           >
             Blog
           </div>
-          <Link
-            className="text-base leading-6 text-gray-100 hover:text-sky-300 cursor-pointer"
-            to="Contato"
-            onClick={() => navigate("/")}
 
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            Contato
-          </Link>
-          <Link
-            className="text-base leading-6 text-gray-100 hover:text-sky-300 cursor-pointer mr-5"
-            to="faq"
-            onClick={() => navigate("/")}
-
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            FAQ
-          </Link>
         </div>
 
         <div className="flex md:hidden" onClick={handleChange}>
@@ -124,28 +82,9 @@ const Navbar = () => {
           duration={500}
           className="hover:text-[#A7CEFC] transition-all cursor-pointer"
         >
-          Quem Somos?
+          Home
         </Link>
-        <Link
-                    onClick={() => navigate("/")}
 
-          to="beneficios"
-          spy={true}
-          smooth={true}
-          duration={500}
-          className="hover:text-[#A7CEFC] transition-all cursor-pointer"
-        >
-          Benefícios
-        </Link>
-        <Link
-          to="depoimentos"
-          spy={true}
-          smooth={true}
-          duration={500}
-          className="hover:text-[#A7CEFC] transition-all cursor-pointer"
-        >
-          Depoimentos
-        </Link>
         <div
             className={`${
               isBlogPage ? "text-[#A7CEFC]" : "hover:text-[#A7CEFC]"
@@ -160,24 +99,8 @@ const Navbar = () => {
         >
           Blog
         </div>
-        <Link
-          className="text-base leading-6 text-gray-100 hover:text-sky-300 cursor-pointer"
-          to="Contato"
-          spy={true}
-          smooth={true}
-          duration={500}
-        >
-          Contato
-        </Link>
-        <Link
-          className="text-base leading-6 text-gray-100 hover:text-sky-300 cursor-pointer"
-          to="faq"
-          spy={true}
-          smooth={true}
-          duration={500}
-        >
-          FAQ
-        </Link>
+
+
       </div>
     </div>
   );

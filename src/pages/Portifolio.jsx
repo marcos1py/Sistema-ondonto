@@ -21,8 +21,8 @@ const Portifolio = () => {
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h3 className="text-lg font-bold mb-2">Landing page</h3>
-              <p className="text-gray-600">Landing page para um empresa no aramo de aviaçao que falava quem eles sao.</p>
+              <h3 className="text-lg font-bold mb-2">Landing page empresa de aviaçoa</h3>
+              <p className="text-gray-600">Landing page para um empresa no aramo de aviaçao que falava quem eles sao.(Html/css/js)</p>
             </div>
           </div>
           <div className="border border-gray-300 rounded-lg overflow-hidden shadow-lg">
@@ -33,7 +33,7 @@ const Portifolio = () => {
             />
             <div className="p-4">
               <h3 className="text-lg font-bold mb-2">Sistema de Cinema </h3>
-              <p className="text-gray-600">Sistema Desktop para gerenciar compras de ingresso e funcionas, podendo colocar filme. (Desktop)</p>
+              <p className="text-gray-600">Sistema Desktop para gerenciar compras de ingresso e funcionas, podendo colocar filme. (Java)</p>
             </div>
           </div>
           <div className="border border-gray-300 rounded-lg overflow-hidden shadow-lg">
@@ -44,7 +44,7 @@ const Portifolio = () => {
             />
             <div className="p-4">
               <h3 className="text-lg font-bold mb-2">Sistema de gestao de projetos </h3>
-              <p className="text-gray-600">Sistema de projetos que usa kanbam, para gerenciar projetos.(Web) </p>
+              <p className="text-gray-600">Sistema de projetos que usa kanbam, para gerenciar projetos.(Java) </p>
             </div>
           </div>
           <div className="border border-gray-300 rounded-lg overflow-hidden shadow-lg">
@@ -55,7 +55,7 @@ const Portifolio = () => {
             />
             <div className="p-4">
               <h3 className="text-lg font-bold mb-2">Aplicativo mobile</h3>
-              <p className="text-gray-600">Cliente q vendia trufas solicitol um app para calcular os lucros e gastos, algo para ajudar ele no dia dia.</p>
+              <p className="text-gray-600">Cliente q vendia trufas solicitol um app para calcular os lucros e gastos, algo para ajudar ele no dia dia.(Python)</p>
             </div>
           </div>
           <div className="border border-gray-300 rounded-lg overflow-hidden shadow-lg">
@@ -66,7 +66,7 @@ const Portifolio = () => {
             />
             <div className="p-4">
               <h3 className="text-lg font-bold mb-2">Sistema para Distribuidora</h3>
-              <p className="text-gray-600">Sistema de gerenciamento de estoque e grafico, com NF. (Web)</p>
+              <p className="text-gray-600">Sistema de gerenciamento de estoque e grafico, com NF. (Python)</p>
             </div>
           </div>
           <div className="border border-gray-300 rounded-lg overflow-hidden shadow-lg">
@@ -77,7 +77,7 @@ const Portifolio = () => {
             />
             <div className="p-4">
               <h3 className="text-lg font-bold mb-2">Landing page Barbearia</h3>
-              <p className="text-gray-600">Landing page para agendamento de cortes e mostrar a marca.(Web)</p>
+              <p className="text-gray-600">Landing page para agendamento de cortes e mostrar a marca.(React)</p>
             </div>
           </div>
 
