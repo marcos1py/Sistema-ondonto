@@ -2,6 +2,10 @@ import React from "react";
 import { Link } from "react-scroll";
 
 const Beneficios = () => {
+  const handleClick = () => {
+    // Chamando o código de rastreamento do Facebook
+    fbq('track', 'Contact');
+  };
   return (
     <div>
       <section className="your-work-area">
@@ -81,14 +85,17 @@ const Beneficios = () => {
             </div>
           </div>
           <div className="theme-text text-center">
-            <Link to="Contato" spy={true} smooth={true} duration={500}>
-              <button
-                href="#Contato"
-                className="bg-blue-500 hover:bg-blue-700 m-3 text-white font-bold py-2 px-4 rounded"
+          <div className="mt-9">
+              <a
+                href="https://wa.me/5562993398590?text=Oii%2C+queria+solicitar+um+orçamento!"
+                className="bg-blue-600 hover:bg-blue-700 m-3 mt-9 text-white font-bold py-2 px-4 rounded"
+                target="_blank"
+                onClick={handleClick} // Adicione o evento onClick 
+
               >
-                Quero Conhecer
-              </button>
-            </Link>
+                Falar com um especialista
+              </a>
+    </div>
           </div>
         </div>
       </section>
@@ -97,3 +104,4 @@ const Beneficios = () => {
 };
 
 export default Beneficios;
+

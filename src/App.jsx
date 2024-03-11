@@ -6,6 +6,7 @@ import Portifolio from './pages/Portifolio';
 import HomePage from './pages/HomePage';
 import HomeBlog from './pages/HomeBlog';
 
+
 const App = () => {
   return (
     <Router>

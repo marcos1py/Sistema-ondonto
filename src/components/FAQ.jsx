@@ -37,7 +37,7 @@ function FAQ() {
               Qual é a forma de pagamento oferecida pela empresa?
             </p>
             <p className="mb-12 text-black ">
-              Resposta: Oferecemos uma opção conveniente de pagamento anual para nossos clientes. Isso significa que você pode pagar pela criação da sua landing page uma vez por ano, simplificando o processo e garantindo acesso contínuo aos nossos serviços ao longo do período contratado.
+              Resposta: Oferecemos uma opção conveniente de pagamento anual(1 manutençao simples mensal) para nossos clientes. Isso significa que você pode pagar pela criação da sua landing page uma vez por ano, simplificando o processo e garantindo acesso contínuo aos nossos serviços ao longo do período contratado.
             </p>
 
             {/* Pergunta 3 */}
